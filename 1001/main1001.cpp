@@ -2,7 +2,8 @@
 #include <string>
 using namespace std;
 int main(){
-    //111111
+    //1111111ss
+    //1q
 int a=0,b=0;
 cin>>a>>b;
 a=a+b;
