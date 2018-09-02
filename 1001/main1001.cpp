@@ -4,6 +4,7 @@ using namespace std;
 int main(){
     //1111111ss
     //1q
+    //00
 int a=0,b=0;
 cin>>a>>b;
 a=a+b;
