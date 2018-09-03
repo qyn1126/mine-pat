@@ -7,7 +7,7 @@ int hea[101][1001],df[1001]={};
 int m,n,s;
 int nm(int a){
     int zf=0;
-    for (int k=1;k<s;k++){
+    for (int k=1;k<=s;k++){
         int k1,k2,z;
         k1=k*2;k2=k*2+1;
         if (k2>n)k2=k1;
@@ -25,8 +25,8 @@ int nm(int a){
 int num=0;
 void dfs(int a){
     if (a>n)return;
-    dfs(a*2+1);
     dfs(a*2);
+    dfs(a*2+1);
     num++;
     df[num]=a;
     return;
